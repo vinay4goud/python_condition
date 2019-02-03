@@ -1,0 +1,61 @@
+# if statement 
+
+a = 33
+b = 200
+if b > a:
+  print("b is greater than a")
+  
+#  Elif statement
+
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+  
+  
+# else statement
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+else:
+  print("a is greater than b")
+  
+# else can also be written without elif statement
+
+a = 200
+b = 33
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+  
+# nested if statement
+
+num = float(input("Enter a number: "))
+if num >= 0:
+    if num == 0:
+        print("Zero")
+    else:
+        print("Positive number")
+else:
+    print("Negative number")
+    
+    
+Output 1
+
+Enter a number: 5
+Positive number
+
+Output 2
+
+Enter a number: -1
+Negative number
+
+
+
